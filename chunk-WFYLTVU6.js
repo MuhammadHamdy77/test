@@ -1,0 +1,1 @@
+var a={production:!1,ipapiUrl:"https://ipapi.co/json/",aladhanUrl:"https://api.aladhan.com/v1/timingsByCity",strapi_url:"https://media.nusuk.sa/cms",urlBkQa:"https://web-huic.haj.gov.sa/nusuk-business-qa/eh/external/nusuksa/"};export{a};
