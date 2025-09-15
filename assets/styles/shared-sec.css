@@ -1,0 +1,224 @@
+
+.articale-box .desc{
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.must-visit{
+    background-color: #F7F6F0;
+}
+
+ .vertical-sec-places .must-visit{
+     display: flex;
+     margin-bottom: 24px;
+     border-radius: 20px;
+     padding: 20px;
+    gap: 24px;
+    }
+.vertical-sec-places .must-visit .content .sub-title{
+    font-size: 24px !important;
+    margin: 0  0 12px !important;
+    line-height: 32px;
+
+}
+.vertical-sec-places .must-visit .img{
+    width: 262px;
+    height: 154px;
+}
+.vertical-sec-places .must-visit .content{
+    padding: 0 !important;
+}
+.vertical-sec-places .btn-primary.sm{
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0 !important;
+    padding: 3px 20px;
+    height: 26px;
+}
+.must-visit.horizontal{
+    min-width: 420px;
+    padding: 24px;
+    border-radius: 20px;
+}
+.must-visit.horizontal .content{
+    padding: 0;
+}
+
+@media (max-width:768px) {
+    .articale-box.horizontal .title{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+
+    .articale-box.horizontal .articale-box .image img{
+        width: 100%;
+        height: 100%;
+    }
+    .must-visit.horizontal{
+        padding: 20px;
+        border-radius: 12px;
+        min-width: 330px;
+    }
+
+     .must-visit.horizontal .img {
+        width: 100%;
+        height: 185px !important;
+     }
+     .vertical-sec-places{
+        margin-top: 0;
+        padding-top: 0;
+     }
+    .vertical-sec-places .vert-titles .btn-primary{
+        display: none;
+    }
+    .vertical-sec-places .vert-titles h3{
+        color: #1A1A18;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+    }
+    .vertical-sec-places .must-visit{
+        display: flex;
+        margin: 8px 0;
+        gap: 16px;
+    }
+    .vertical-sec-places .must-visit{
+        padding:16px ;
+    }
+    .vertical-sec-places .must-visit .content{
+        padding: 0;
+    }
+    .vertical-sec-places .must-visit .content .sub-title{
+            color:#1A1A18;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px;
+    }
+    .vertical-sec-places .must-visit .img{
+        width: 90.09px;
+        height: 116px;
+        border-radius: 20px;
+}
+}
+
+
+
+
+
+
+
+
+.box-layer{
+    min-width: 420px !important;
+}
+.articales-Small{
+   display: flex;
+}
+
+.navigate{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    margin: 48px 0;
+}
+.navigate > div{
+    background-color: #DBD8CE;
+    height: 10px;
+    width: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.navigate > div.active{
+    background-color: #1A1A18;
+}
+
+.articale-box .desc{
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+  .box-layer.horizontal{
+    min-width: 320px !important;
+  }
+  .articales-Small{
+   overflow-x: scroll;
+     scrollbar-width: none;
+    -ms-overflow-style: none
+}
+.articales-Small::-webkit-scrollbar {
+  display: none;
+}
+  .articales-Small .col-span-6{
+    min-width: 361px;
+  }
+    .articales-Small .articale-box .image{
+        /* width: 100px !important;
+        height: 140px; */
+    }
+    .articales-Small .articale-box .image img{
+        width: 100%;
+        height: 100%;
+    }
+   .articales-Small .articale-box {
+       gap: 12px;
+    }
+    .articales-Small .articale-box .title {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 8px 0;
+    }
+    .articale-box .desc{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .articales-Small .articale-box .icons{
+        display: none;
+    }
+    .navigate{
+        display: flex;
+    }
+
+    .box-layer.larg{
+        min-width:fit-content !important
+    }
+    .box-layer.larg h4{
+        font-size: 24px !important;
+    }
+    .box-layer.larg .p{
+        font-size: 16px;
+    }
+    .articale-box.larg .title{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+}
+
