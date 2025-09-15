@@ -1,0 +1,1 @@
+var d=class{static mapHeader(e,r){return{header_title:e.title,header_subTitle:r?e.description:"",header_button:e.header_button,header_image:e.header_image,sponsers_images:e.sponsers_images}}};export{d as a};

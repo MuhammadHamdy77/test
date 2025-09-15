@@ -1,0 +1,12 @@
+.wrap-text { width: 45%; margin: auto; font-size: 64px !important; }
+.w-header { width: 654px; }
+.charts-content { width: 364px; }
+.box-scroll { display: flex; }
+.title-center {
+  color: var(--color-dark);
+  text-align: center;
+  padding: 96px 0;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 52px;
+}

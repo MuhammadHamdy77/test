@@ -1,0 +1,84 @@
+.box-layer.about .overlay p{
+  max-height: 170px;
+  overflow-y: auto;
+}
+
+@media (max-width:992px) {
+  .sec-qoute{
+    width: 100%;
+  }
+  .vert-titles{
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+  }
+      .listing-Section .boxes{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .vertical-sec-places .btn-primary.sm{
+      padding: 15px 1.5rem;
+      font-size: 1rem;
+      height: auto;
+    }
+  .categories-box {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .categories-box .cat-box {
+    margin-bottom: 14px;
+  }
+
+    .charts-content {
+    width: 95%;
+    margin: auto;
+  }
+    .wrap-text {
+    width: 100% !important;
+  }
+  .w-header{
+    width: 100%;
+  }
+
+  .box-layer.about .overlay p{
+    max-height: 200px;
+  }
+}
+
+@media (max-width:768px) {
+  .hidden-mob{
+    display: none;
+  }
+  .hidden-desk{
+    display: block;
+  }
+  .categories-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .categories-box .cat-box{
+    width: 100%;
+  }
+  .articale-box .image{
+    max-width: 80px !important;
+  }
+
+  .box-layer.larg .img{
+    height: auto !important;
+  }
+  .box-layer.horizontal .img {
+      position: relative;
+      width: 320.319px;
+      height: 249px;
+  }
+    .box-layer.about .overlay p{
+      max-height: 300px;
+    }
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+  }
+}
